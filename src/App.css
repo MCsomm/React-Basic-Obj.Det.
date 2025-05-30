@@ -1,0 +1,31 @@
+/* src/App.css */
+
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.upload-icon {
+  width: 30px;
+}
+
+.bounding-box {
+  position: absolute;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.bounding-box-label {
+  color: white;
+  position: absolute;
+  font-size: 12px;
+  margin-top: -16px;
+  margin-left: -2px;
+  padding: 1px;
+}
