@@ -1,12 +1,18 @@
-# React + Vite
+This is a React-based web app for performing real-time object detection in images using transformers.js and the DETR ResNet-50 model from Hugging Face.
+🔧 Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    React + Vite – Modern frontend framework and build tool for fast development.
 
-Currently, two official plugins are available:
+    transformers.js – Client-side inference library by Hugging Face that runs Transformer models directly in the browser via WebAssembly (WASM).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    DETR (DEtection TRansformer) – A powerful object detection model (Xenova/detr-resnet-50) from Hugging Face's model hub.
 
-## Expanding the ESLint configuration
+    JavaScript + Web APIs – For image processing, DOM manipulation, and rendering bounding boxes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📦 Features
+
+    Upload any image and run object detection entirely in the browser (no backend/API).
+
+    Draws bounding boxes with labels for detected objects.
+
+    Uses pure client-side inference with no data sent to any server.
